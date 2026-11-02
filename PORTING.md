@@ -2,7 +2,8 @@
 
 Source: `0xLattice/lattice-sdk` at
 `3a1be07318f12b85f147e0a5ea55ae68a224e780`. Original MIT license retained.
-This is a separate local repository on `codex/rust-platform-sdk`; unpublished.
+Published as `0xLattice/lattice-sdk-rs` on `codex/rust-platform-port`, with
+exact sibling revisions in the platform manifest.
 
 ## Implemented
 
@@ -129,7 +130,7 @@ canonical block, balance or content hash. Submission uses a separate explicitly 
 
 ## Remaining
 
-Expanded content interoperability and high-level submission workflows; end-to-end Rust/Swift node compatibility; cross-browser and worker validation; extending TypeScript differential coverage; cross-repository CI and
+Expanded content interoperability and high-level submission workflows; end-to-end Rust/Swift node compatibility; cross-browser and shared/service-worker validation; extending TypeScript differential coverage; cross-repository CI and
 release manifests. The initial read-client tests do not establish SDK completeness.
 
 ## Browser runtime and transport
@@ -152,7 +153,9 @@ example demonstrates wasm-bindgen embedding, not a drop-in JavaScript SDK export
 The actual Chrome run in `browser/evidence.json` verifies reads, authorization,
 stream caps, timeout and cancellation aborts before headers and during bodies,
 redirect rejection, volume authentication, submission, shared discovery and
-entropy/sponsor search. `browser/README.md` reproduces it. Other browser engines,
+entropy/sponsor search. `browser/README.md` reproduces it. The dedicated module worker run in `browser/worker-evidence.json` also passes
+all eleven checks and observes four aborted server connections, using the same
+Rust WASM module with no Window global. Other browser engines, shared/service
 workers and cross-origin deployment configurations remain unverified.
 
 Actual Rust and unchanged pinned Swift daemon workflows now exercise signed

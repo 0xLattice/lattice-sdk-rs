@@ -1,0 +1,28 @@
+<!doctype html><meta charset="utf-8"><title>Lattice Rust SDK worker verification</title>
+<h1>Lattice Rust SDK worker verification</h1><pre id="result">Running…</pre>
+<script type="module">
+const result = document.querySelector('#result');
+const worker = new Worker('./worker.mjs', {type: 'module'});
+const timeout = setTimeout(() => finish('FAIL: worker timed out'), 15000);
+function finish(text) {
+  clearTimeout(timeout);
+  worker.terminate();
+  result.textContent = text;
+}
+worker.onerror = event => finish('FAIL: ' + event.message);
+worker.onmessage = async ({data}) => {
+  try {
+    if (data.error || data.worker !== true || !Array.isArray(data.checks)) {
+      throw Error(data.error || 'missing worker result');
+    }
+    await new Promise(resolve => setTimeout(resolve, 700));
+    const stats = await (await fetch('/stats')).json();
+    if (stats.redirectTargets !== 0 || stats.abortObserved < 4 || stats.posts !== 1 || stats.authorized < 1) {
+      throw Error(JSON.stringify(stats));
+    }
+    finish('PASS\nDedicatedWorkerGlobalScope\n' + data.checks.join('\n') + '\nServer evidence: ' + JSON.stringify(stats));
+  } catch (error) {
+    finish('FAIL: ' + error);
+  }
+};
+</script>

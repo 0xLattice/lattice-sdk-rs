@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-02",
+  "browser": "Chrome, controlled through CUA",
+  "result": "PASS",
+  "executionContext": "DedicatedWorkerGlobalScope (window absent)",
+  "checks": [
+    "HTTP read and explicit authorization",
+    "streaming response cap",
+    "deadline abort",
+    "cancellation abort",
+    "redirect refusal",
+    "body-stream cancellation and deadline",
+    "complete authenticated Volume HTTP transfer",
+    "explicit HTTP submission",
+    "explicit DNS capability refusal",
+    "shared browser discovery task",
+    "browser entropy and sponsor share search"
+  ],
+  "serverEvidence": {
+    "redirectTargets": 0,
+    "delayed": 2,
+    "bodyDelayed": 2,
+    "abortObserved": 4,
+    "authorized": 1,
+    "posts": 1
+  },
+  "inputSha256": {
+    "Cargo.lock": "8e56f7ce9881c492dba166c17ad23a28592c9de669a71f87bb307797db71ec17",
+    "examples/browser_smoke.rs": "0856d8ae85b0f498d97f0eb2ce2015f505aa4b998ab5103ce9ea2c1ee4545199",
+    "src/runtime.rs": "592a77014061b126a1a2ed5f0626c79fd4459941eee62eff7d6f16d0a8e4d3fb",
+    "src/transport.rs": "71db19d06b9ee0fbabc493ec644447283b0a2822ede54ee8cb0ec2f5c4a1e7e6",
+    "browser/worker.html": "4204edaf07e6016a0f7a215a113158a7dbb504adc3d221d93f3137082fa2dbda",
+    "browser/worker.mjs": "3ab11d73472c84c5d024f43560ce16b7c29214d9ca487a7db57916136542faf4",
+    "browser/server.py": "56598dde5cc43940f6e337a1b04df123a8b43354e02cb1822a14718b22cbf1e9"
+  },
+  "wasmSha256": "e2de703f3d61597a61d0f974c15a826bd8be2e5dafb273cfee3369b048f5a33b",
+  "scope": "Real Rust WASM SDK in a Chrome dedicated module worker against fresh same-origin localhost fixtures; not other browser engines, shared/service workers, cross-origin deployments or live-network validation."
+}
