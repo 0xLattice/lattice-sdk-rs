@@ -42,6 +42,8 @@ pub struct ChainInfo {
     pub min_relay_fee: Option<Decimal>,
     #[serde(default, deserialize_with = "present")]
     pub accepts_submit: Option<bool>,
+    #[serde(default, deserialize_with = "present")]
+    pub finality_window: Option<Decimal>,
 }
 #[derive(Debug, Deserialize)]
 #[serde(rename_all = "camelCase")]

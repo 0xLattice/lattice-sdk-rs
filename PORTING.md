@@ -163,3 +163,7 @@ transfer inclusion, CID content reads, account and deposit-absence witnesses,
 and durable restart (see `docs/node-integration.md` and evidence). This exposed
 and fixed transaction-dictionary lookup: it resolves from the enclosing block
 volume, rather than requesting an ordinary Header as a standalone volume.
+
+`ChainInfo.finality_window` now decodes the daemon's optional decimal-string
+`finalityWindow`, including full u64 width; omitted is accepted and explicit
+null is rejected. `tests/finality.rs` covers this additive read DTO field.
