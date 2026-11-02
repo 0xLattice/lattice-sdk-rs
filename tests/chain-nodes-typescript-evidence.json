@@ -1,0 +1,7 @@
+{
+  "sdk_sha": "3a1be07318f12b85f147e0a5ea55ae68a224e780",
+  "node": "v26.0.0",
+  "source_sha256": "328809a9c9dc8c957852be07961f57419b446fc171c8f46696bf058f30dbc79e",
+  "fixture_sha256": "b53778b97d36b6e4013292b62b4f52ed81d03749edd918d4b12217a491acf2ea",
+  "scope": "Actual pinned ChainNodes class. NodeClient.chainInfo and EndpointResolver.resolve replaced with deterministic injected seams; no network. Directory resolver independently covered by its own corpus."
+}

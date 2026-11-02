@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "swiftRevision": "3df9e0a786c7b103a3da88d1c3881efc81706255",
+  "harnessSHA256": "af80d4928d5a769bd6a18f1b42793699545bf6503b5a3d037572c0d1d9f8b289",
+  "binarySHA256": {
+    "node": "a84825e2a4cae7c033739cafe9b4983ff8348ea1f84fda072ccbaa5cb35b159b",
+    "sdk": "8d57edd8a86598b4f883d1aa48b24ece56792cb5c07936fc44bf1fe5e8da78a9",
+    "miner": "cfe2f74f6493d42ef8d6e43219611c5516bfc3f945d7f26acb0545fd17921b9b"
+  },
+  "beforeRestart": {
+    "accountWitness": true,
+    "blockCID": "bafyreid36x2qq2o5igq7odrntsg55yaxw4wpgv2rfyxbkylxolonhebxba",
+    "discovery": true,
+    "recipientBalance": "3",
+    "stateCID": "bafyreidfh3qn5vahz732d55lqk6rbcsvcnnuxj2tffefrtazgwpe3ghhym",
+    "transactionCID": "bafyreihud35aygfvjx46disxolotqty3tqaltxy5mvc4n65fakn5jzh7zu",
+    "verifiedAbsence": "bafyreigsaq2xiifeke7w2wujnlteb5bozqb5jxxfz5as6iwuvkbbxsfbem/123/99"
+  },
+  "afterRestart": {
+    "accountWitness": true,
+    "blockCID": "bafyreid36x2qq2o5igq7odrntsg55yaxw4wpgv2rfyxbkylxolonhebxba",
+    "discovery": true,
+    "recipientBalance": "3",
+    "stateCID": "bafyreidfh3qn5vahz732d55lqk6rbcsvcnnuxj2tffefrtazgwpe3ghhym",
+    "transactionCID": "bafyreihud35aygfvjx46disxolotqty3tqaltxy5mvc4n65fakn5jzh7zu",
+    "verifiedAbsence": "bafyreigsaq2xiifeke7w2wujnlteb5bozqb5jxxfz5as6iwuvkbbxsfbem/123/99"
+  },
+  "privacy_note": "Temporary filesystem paths in the companion log are redacted; validation observations and source hashes are unchanged."
+}

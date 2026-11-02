@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "binarySHA256": {
+    "node": "f8a994a13ad5903cc9d41bf128a90fc89bd763a1e7d78a886b4c73a666ef5002",
+    "sdk": "8d57edd8a86598b4f883d1aa48b24ece56792cb5c07936fc44bf1fe5e8da78a9"
+  },
+  "harnessSHA256": "5b80cd5a791f79fd13acf802ba6aad35b653369e290c237bc135f19ed7a174d4",
+  "fixtureSHA256": "ef368f44f00498b1fcac30f882bb1bb73f04d1712bcfaf8e775d099da2ee3f4e",
+  "beforeRestart": {
+    "accountWitness": true,
+    "blockCID": "bafyreibii5urjhklk6vjouw3b77v5kvfpqwbsmwvajzk3vztedjs5mryvm",
+    "discovery": true,
+    "recipientBalance": "3",
+    "stateCID": "bafyreih3zoysyam7kmnckn3zsuswypolewhs6mj7xw5e6tqnr56v2fa33q",
+    "transactionCID": "bafyreigcibzchha542grd6ohl3uro26t6i6daqml2rwy7af6vxcoox6brq",
+    "verifiedAbsence": "bafyreigsaq2xiifeke7w2wujnlteb5bozqb5jxxfz5as6iwuvkbbxsfbem/123/99"
+  },
+  "afterRestart": {
+    "accountWitness": true,
+    "blockCID": "bafyreibii5urjhklk6vjouw3b77v5kvfpqwbsmwvajzk3vztedjs5mryvm",
+    "discovery": true,
+    "recipientBalance": "3",
+    "stateCID": "bafyreih3zoysyam7kmnckn3zsuswypolewhs6mj7xw5e6tqnr56v2fa33q",
+    "transactionCID": "bafyreigcibzchha542grd6ohl3uro26t6i6daqml2rwy7af6vxcoox6brq",
+    "verifiedAbsence": "bafyreigsaq2xiifeke7w2wujnlteb5bozqb5jxxfz5as6iwuvkbbxsfbem/123/99"
+  }
+}

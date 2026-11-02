@@ -1,0 +1,808 @@
+{
+  "draft": {
+    "accountActions": [
+      {
+        "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+        "delta": "-10"
+      },
+      {
+        "owner": "recipient",
+        "delta": "10"
+      }
+    ],
+    "actions": [],
+    "depositActions": [],
+    "receiptActions": [],
+    "withdrawalActions": [],
+    "signers": [
+      "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i"
+    ],
+    "nonce": "3",
+    "chainPath": [
+      "Nexus"
+    ]
+  },
+  "pay": "2",
+  "cases": [
+    {
+      "name": "valid",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": true
+    },
+    {
+      "name": "changed-pay",
+      "answer": {
+        "fee": "5",
+        "pay": "3",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "noncanonical-fee",
+      "answer": {
+        "fee": "05",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "negative-fee",
+      "answer": {
+        "fee": "-1",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "wrong-nonce",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "4",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "wrong-path",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus",
+              "Child"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "extra-signer",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+              "extra"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "same-sponsor",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "extra-action",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              },
+              {
+                "owner": "thief",
+                "delta": "1"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "changed-credit",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "3"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "extra-field",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ],
+            "unknown": true
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "missing-signature",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {},
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "wrong-key",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "two-signatures",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e",
+            "ed01ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "nonstring-signature",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": 4
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "opaque-signature-retained",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "not-yet-verified"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": true
+    },
+    {
+      "name": "overflow-fee",
+      "answer": {
+        "fee": "9223372036854775808",
+        "pay": "2",
+        "transaction": {
+          "signatures": {
+            "ed01fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618": "6cc67dd5aad7ea1b73560ededbb92a8f0e4b779da090d4f8c60459865290d2f28fe34aa8997504463d6f0a77628aa4a4c8aa4d9787c942c34ed0846d5ddfe60e"
+          },
+          "body": {
+            "accountActions": [
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "-10"
+              },
+              {
+                "owner": "recipient",
+                "delta": "10"
+              },
+              {
+                "owner": "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+                "delta": "2"
+              },
+              {
+                "owner": "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya",
+                "delta": "-7"
+              }
+            ],
+            "actions": [],
+            "depositActions": [],
+            "receiptActions": [],
+            "withdrawalActions": [],
+            "signers": [
+              "bafyreib547ynunumcccscekqfrdkomznobnqvxlfofif7npnl2npeekn7i",
+              "bafyreififd6fbrz5estsxl7fw37g35sgbfryi6jhojkreht6dac22dnlya"
+            ],
+            "nonce": "3",
+            "chainPath": [
+              "Nexus"
+            ]
+          }
+        }
+      },
+      "accepted": false
+    },
+    {
+      "name": "null-transaction",
+      "answer": {
+        "fee": "5",
+        "pay": "2",
+        "transaction": null
+      },
+      "accepted": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "repository": "0xLattice/lattice-sdk",
+  "revision": "3a1be07318f12b85f147e0a5ea55ae68a224e780",
+  "license": "MIT",
+  "scope": "platform SDK; no application chains"
+}

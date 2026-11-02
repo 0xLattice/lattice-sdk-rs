@@ -1,0 +1,482 @@
+{
+  "hashes": [
+    {
+      "prefix": "",
+      "nonce": "0",
+      "hash": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+    },
+    {
+      "prefix": "",
+      "nonce": "1",
+      "hash": "cd2662154e6d76b2b2b92e70c0cac3ccf534f9b74eb5b89819ec509083d00a50"
+    },
+    {
+      "prefix": "",
+      "nonce": "-1",
+      "hash": "12a3ae445661ce5dee78d0650d33362dec29c4f82af05e7e57fb595bbbacf0ca"
+    },
+    {
+      "prefix": "",
+      "nonce": "18446744073709551615",
+      "hash": "12a3ae445661ce5dee78d0650d33362dec29c4f82af05e7e57fb595bbbacf0ca"
+    },
+    {
+      "prefix": "",
+      "nonce": "18446744073709551616",
+      "hash": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+    },
+    {
+      "prefix": "",
+      "nonce": "18446744073709551617",
+      "hash": "cd2662154e6d76b2b2b92e70c0cac3ccf534f9b74eb5b89819ec509083d00a50"
+    },
+    {
+      "prefix": "",
+      "nonce": "-36893488147419103239",
+      "hash": "1d4ced977de58bc7354d8e37ce7e6af71cd79ee2a57d428eeebf5d5dcdabf2ec"
+    },
+    {
+      "prefix": "0x",
+      "nonce": "0",
+      "hash": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+    },
+    {
+      "prefix": "0x",
+      "nonce": "1",
+      "hash": "cd2662154e6d76b2b2b92e70c0cac3ccf534f9b74eb5b89819ec509083d00a50"
+    },
+    {
+      "prefix": "0x",
+      "nonce": "-1",
+      "hash": "12a3ae445661ce5dee78d0650d33362dec29c4f82af05e7e57fb595bbbacf0ca"
+    },
+    {
+      "prefix": "0x",
+      "nonce": "18446744073709551615",
+      "hash": "12a3ae445661ce5dee78d0650d33362dec29c4f82af05e7e57fb595bbbacf0ca"
+    },
+    {
+      "prefix": "0x",
+      "nonce": "18446744073709551616",
+      "hash": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+    },
+    {
+      "prefix": "0x",
+      "nonce": "18446744073709551617",
+      "hash": "cd2662154e6d76b2b2b92e70c0cac3ccf534f9b74eb5b89819ec509083d00a50"
+    },
+    {
+      "prefix": "0x",
+      "nonce": "-36893488147419103239",
+      "hash": "1d4ced977de58bc7354d8e37ce7e6af71cd79ee2a57d428eeebf5d5dcdabf2ec"
+    },
+    {
+      "prefix": "00",
+      "nonce": "0",
+      "hash": "3e7077fd2f66d689e0cee6a7cf5b37bf2dca7c979af356d0a31cbc5c85605c7d"
+    },
+    {
+      "prefix": "00",
+      "nonce": "1",
+      "hash": "2ae1c19c0cbd378e46c927a9f3611923ec07cc1ae357502a09536d455275cf21"
+    },
+    {
+      "prefix": "00",
+      "nonce": "-1",
+      "hash": "9def0fa72f2e47121f76669bb34e840056e33b7cb205287c2e7b765bf6ff0a07"
+    },
+    {
+      "prefix": "00",
+      "nonce": "18446744073709551615",
+      "hash": "9def0fa72f2e47121f76669bb34e840056e33b7cb205287c2e7b765bf6ff0a07"
+    },
+    {
+      "prefix": "00",
+      "nonce": "18446744073709551616",
+      "hash": "3e7077fd2f66d689e0cee6a7cf5b37bf2dca7c979af356d0a31cbc5c85605c7d"
+    },
+    {
+      "prefix": "00",
+      "nonce": "18446744073709551617",
+      "hash": "2ae1c19c0cbd378e46c927a9f3611923ec07cc1ae357502a09536d455275cf21"
+    },
+    {
+      "prefix": "00",
+      "nonce": "-36893488147419103239",
+      "hash": "e58c69de7c1cb96a3fec20b5cfe0f1ca580940b2fc3e9f63e00f131b38041e7c"
+    },
+    {
+      "prefix": "0xdeadbeef",
+      "nonce": "0",
+      "hash": "40657e5cc8e75162df7ea33a8fd55daa6e1a46d96502febf77af0883cdf365a4"
+    },
+    {
+      "prefix": "0xdeadbeef",
+      "nonce": "1",
+      "hash": "1883a2293f8118b9be66029c3ddddc65df24c1cf28e26e991e9f51c8e1520bef"
+    },
+    {
+      "prefix": "0xdeadbeef",
+      "nonce": "-1",
+      "hash": "93446b46244b775be29afdb223c8c258874bac5ab6ed039c3196372fe3ce53c3"
+    },
+    {
+      "prefix": "0xdeadbeef",
+      "nonce": "18446744073709551615",
+      "hash": "93446b46244b775be29afdb223c8c258874bac5ab6ed039c3196372fe3ce53c3"
+    },
+    {
+      "prefix": "0xdeadbeef",
+      "nonce": "18446744073709551616",
+      "hash": "40657e5cc8e75162df7ea33a8fd55daa6e1a46d96502febf77af0883cdf365a4"
+    },
+    {
+      "prefix": "0xdeadbeef",
+      "nonce": "18446744073709551617",
+      "hash": "1883a2293f8118b9be66029c3ddddc65df24c1cf28e26e991e9f51c8e1520bef"
+    },
+    {
+      "prefix": "0xdeadbeef",
+      "nonce": "-36893488147419103239",
+      "hash": "fe9a98fc25630ab8d3eca3b0f7fca886dbedbb50c299cb2e9c9175229305b43a"
+    },
+    {
+      "prefix": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "nonce": "0",
+      "hash": "eb811e9de03e5f9c21b8bb9b2129b78d19a598ceea79678b59904385a71ba06e"
+    },
+    {
+      "prefix": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "nonce": "1",
+      "hash": "cc2502f01a05a00a56f74860849e0cffe40804ff7d2fb5cf1b74efb4acda2523"
+    },
+    {
+      "prefix": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "nonce": "-1",
+      "hash": "23da3c724b95ae93f518655665a059eb61994d2fc27c4ebd7defe304b68681d5"
+    },
+    {
+      "prefix": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "nonce": "18446744073709551615",
+      "hash": "23da3c724b95ae93f518655665a059eb61994d2fc27c4ebd7defe304b68681d5"
+    },
+    {
+      "prefix": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "nonce": "18446744073709551616",
+      "hash": "eb811e9de03e5f9c21b8bb9b2129b78d19a598ceea79678b59904385a71ba06e"
+    },
+    {
+      "prefix": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "nonce": "18446744073709551617",
+      "hash": "cc2502f01a05a00a56f74860849e0cffe40804ff7d2fb5cf1b74efb4acda2523"
+    },
+    {
+      "prefix": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "nonce": "-36893488147419103239",
+      "hash": "5ebc4f2f320d1b4c24ec0f63161bc66ac2ccd8311946048d5f5bd29639ac800b"
+    },
+    {
+      "prefix": "abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
+      "nonce": "0",
+      "hash": "74b7d0642e3182a2e7296718336ebd78d7a127ca099da46ad88d93be5cdbf2c8"
+    },
+    {
+      "prefix": "abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
+      "nonce": "1",
+      "hash": "01b42ec0656eb277d791cca9ec57a30891ed58beae3b183e09403824a9abf2d2"
+    },
+    {
+      "prefix": "abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
+      "nonce": "-1",
+      "hash": "dd90ef949c5200aafe44e982d87bbbae44b3c172bf906446601d5142fc7ccc4c"
+    },
+    {
+      "prefix": "abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
+      "nonce": "18446744073709551615",
+      "hash": "dd90ef949c5200aafe44e982d87bbbae44b3c172bf906446601d5142fc7ccc4c"
+    },
+    {
+      "prefix": "abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
+      "nonce": "18446744073709551616",
+      "hash": "74b7d0642e3182a2e7296718336ebd78d7a127ca099da46ad88d93be5cdbf2c8"
+    },
+    {
+      "prefix": "abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
+      "nonce": "18446744073709551617",
+      "hash": "01b42ec0656eb277d791cca9ec57a30891ed58beae3b183e09403824a9abf2d2"
+    },
+    {
+      "prefix": "abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
+      "nonce": "-36893488147419103239",
+      "hash": "260c053a2bf02f351e9903edae8edf311240254fd1630070d9ed2b97b5d4b0c0"
+    },
+    {
+      "prefix": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "nonce": "0",
+      "hash": "3bba4dc97dacc9a2e0bdbbd7b7fd617610f75fa5bca40f380b4084053e13a467"
+    },
+    {
+      "prefix": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "nonce": "1",
+      "hash": "01d4b2e217ba7db1f9b9fbd05df64c0505c09a60aca16c9f6c972be619ce1383"
+    },
+    {
+      "prefix": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "nonce": "-1",
+      "hash": "df87f244eac038d11840a54c148a5ec7a2bacfb5ade70b8de375d006399176f8"
+    },
+    {
+      "prefix": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "nonce": "18446744073709551615",
+      "hash": "df87f244eac038d11840a54c148a5ec7a2bacfb5ade70b8de375d006399176f8"
+    },
+    {
+      "prefix": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "nonce": "18446744073709551616",
+      "hash": "3bba4dc97dacc9a2e0bdbbd7b7fd617610f75fa5bca40f380b4084053e13a467"
+    },
+    {
+      "prefix": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "nonce": "18446744073709551617",
+      "hash": "01d4b2e217ba7db1f9b9fbd05df64c0505c09a60aca16c9f6c972be619ce1383"
+    },
+    {
+      "prefix": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "nonce": "-36893488147419103239",
+      "hash": "599a4f72c2fd52ecc7b03d689f02d1dc8e301e286962d0c6bd8a228946f90e3a"
+    },
+    {
+      "prefix": "AB",
+      "nonce": "0",
+      "hash": null
+    },
+    {
+      "prefix": "AB",
+      "nonce": "1",
+      "hash": null
+    },
+    {
+      "prefix": "AB",
+      "nonce": "-1",
+      "hash": null
+    },
+    {
+      "prefix": "AB",
+      "nonce": "18446744073709551615",
+      "hash": null
+    },
+    {
+      "prefix": "AB",
+      "nonce": "18446744073709551616",
+      "hash": null
+    },
+    {
+      "prefix": "AB",
+      "nonce": "18446744073709551617",
+      "hash": null
+    },
+    {
+      "prefix": "AB",
+      "nonce": "-36893488147419103239",
+      "hash": null
+    },
+    {
+      "prefix": "0Xaa",
+      "nonce": "0",
+      "hash": null
+    },
+    {
+      "prefix": "0Xaa",
+      "nonce": "1",
+      "hash": null
+    },
+    {
+      "prefix": "0Xaa",
+      "nonce": "-1",
+      "hash": null
+    },
+    {
+      "prefix": "0Xaa",
+      "nonce": "18446744073709551615",
+      "hash": null
+    },
+    {
+      "prefix": "0Xaa",
+      "nonce": "18446744073709551616",
+      "hash": null
+    },
+    {
+      "prefix": "0Xaa",
+      "nonce": "18446744073709551617",
+      "hash": null
+    },
+    {
+      "prefix": "0Xaa",
+      "nonce": "-36893488147419103239",
+      "hash": null
+    },
+    {
+      "prefix": "a",
+      "nonce": "0",
+      "hash": null
+    },
+    {
+      "prefix": "a",
+      "nonce": "1",
+      "hash": null
+    },
+    {
+      "prefix": "a",
+      "nonce": "-1",
+      "hash": null
+    },
+    {
+      "prefix": "a",
+      "nonce": "18446744073709551615",
+      "hash": null
+    },
+    {
+      "prefix": "a",
+      "nonce": "18446744073709551616",
+      "hash": null
+    },
+    {
+      "prefix": "a",
+      "nonce": "18446744073709551617",
+      "hash": null
+    },
+    {
+      "prefix": "a",
+      "nonce": "-36893488147419103239",
+      "hash": null
+    },
+    {
+      "prefix": "zz",
+      "nonce": "0",
+      "hash": null
+    },
+    {
+      "prefix": "zz",
+      "nonce": "1",
+      "hash": null
+    },
+    {
+      "prefix": "zz",
+      "nonce": "-1",
+      "hash": null
+    },
+    {
+      "prefix": "zz",
+      "nonce": "18446744073709551615",
+      "hash": null
+    },
+    {
+      "prefix": "zz",
+      "nonce": "18446744073709551616",
+      "hash": null
+    },
+    {
+      "prefix": "zz",
+      "nonce": "18446744073709551617",
+      "hash": null
+    },
+    {
+      "prefix": "zz",
+      "nonce": "-36893488147419103239",
+      "hash": null
+    }
+  ],
+  "searches": [
+    {
+      "prefix": "",
+      "start": "0",
+      "count": "0",
+      "target": "0",
+      "found": []
+    },
+    {
+      "prefix": "00",
+      "start": "0",
+      "count": "16",
+      "target": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+      "found": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "prefix": "deadbeef",
+      "start": "18446744073709551613",
+      "count": "8",
+      "target": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+      "found": [
+        "18446744073709551613",
+        "18446744073709551614",
+        "18446744073709551615",
+        "18446744073709551616",
+        "18446744073709551617",
+        "18446744073709551618",
+        "18446744073709551619",
+        "18446744073709551620"
+      ]
+    },
+    {
+      "prefix": "abcdef",
+      "start": "17",
+      "count": "100",
+      "target": "7237005577332262213973186563042994240829374041602535252466099000494570602495",
+      "found": [
+        "27",
+        "34",
+        "50",
+        "80",
+        "98"
+      ]
+    },
+    {
+      "prefix": "",
+      "start": "1267650600228229401496703205376",
+      "count": "30",
+      "target": "57896044618658097711785492504343953926634992332820282019728792003956564819968",
+      "found": [
+        "1267650600228229401496703205381",
+        "1267650600228229401496703205382",
+        "1267650600228229401496703205384",
+        "1267650600228229401496703205385",
+        "1267650600228229401496703205387",
+        "1267650600228229401496703205389",
+        "1267650600228229401496703205390",
+        "1267650600228229401496703205394",
+        "1267650600228229401496703205395",
+        "1267650600228229401496703205396",
+        "1267650600228229401496703205398",
+        "1267650600228229401496703205401",
+        "1267650600228229401496703205402",
+        "1267650600228229401496703205403",
+        "1267650600228229401496703205404",
+        "1267650600228229401496703205405"
+      ]
+    },
+    {
+      "prefix": "aa",
+      "start": "0",
+      "count": "10",
+      "target": "0",
+      "found": []
+    }
+  ]
+}

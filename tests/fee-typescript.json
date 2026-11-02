@@ -1,0 +1,2286 @@
+{
+  "cases": [
+    {
+      "size": 0,
+      "growth": -1,
+      "weight": null,
+      "result": "1"
+    },
+    {
+      "size": 0,
+      "growth": 0,
+      "weight": null,
+      "result": "1"
+    },
+    {
+      "size": 0,
+      "growth": 11,
+      "weight": null,
+      "result": "1"
+    },
+    {
+      "size": 0,
+      "growth": 100,
+      "weight": null,
+      "result": "1"
+    },
+    {
+      "size": 0,
+      "growth": 1001,
+      "weight": null,
+      "result": "1"
+    },
+    {
+      "size": 0,
+      "growth": 9007199254740991,
+      "weight": null,
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": -1,
+      "weight": null,
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": 0,
+      "weight": null,
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": 11,
+      "weight": null,
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": 100,
+      "weight": null,
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": 1001,
+      "weight": null,
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": 9007199254740991,
+      "weight": null,
+      "result": "1"
+    },
+    {
+      "size": 300,
+      "growth": -1,
+      "weight": null,
+      "result": "300"
+    },
+    {
+      "size": 300,
+      "growth": 0,
+      "weight": null,
+      "result": "300"
+    },
+    {
+      "size": 300,
+      "growth": 11,
+      "weight": null,
+      "result": "300"
+    },
+    {
+      "size": 300,
+      "growth": 100,
+      "weight": null,
+      "result": "300"
+    },
+    {
+      "size": 300,
+      "growth": 1001,
+      "weight": null,
+      "result": "300"
+    },
+    {
+      "size": 300,
+      "growth": 9007199254740991,
+      "weight": null,
+      "result": "300"
+    },
+    {
+      "size": 1001,
+      "growth": -1,
+      "weight": null,
+      "result": "1001"
+    },
+    {
+      "size": 1001,
+      "growth": 0,
+      "weight": null,
+      "result": "1001"
+    },
+    {
+      "size": 1001,
+      "growth": 11,
+      "weight": null,
+      "result": "1001"
+    },
+    {
+      "size": 1001,
+      "growth": 100,
+      "weight": null,
+      "result": "1001"
+    },
+    {
+      "size": 1001,
+      "growth": 1001,
+      "weight": null,
+      "result": "1001"
+    },
+    {
+      "size": 1001,
+      "growth": 9007199254740991,
+      "weight": null,
+      "result": "1001"
+    },
+    {
+      "size": 0,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "100"
+    },
+    {
+      "size": 0,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "100"
+    },
+    {
+      "size": 0,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "110"
+    },
+    {
+      "size": 0,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 0,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 0,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "100"
+    },
+    {
+      "size": 1,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "100"
+    },
+    {
+      "size": 1,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "110"
+    },
+    {
+      "size": 1,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 300,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "320"
+    },
+    {
+      "size": 300,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "320"
+    },
+    {
+      "size": 300,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "320"
+    },
+    {
+      "size": 300,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 300,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 300,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1001,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1021"
+    },
+    {
+      "size": 1001,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1021"
+    },
+    {
+      "size": 1001,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1021"
+    },
+    {
+      "size": 1001,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1021"
+    },
+    {
+      "size": 1001,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1021"
+    },
+    {
+      "size": 1001,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1021"
+    },
+    {
+      "size": 0,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1"
+    },
+    {
+      "size": 0,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1"
+    },
+    {
+      "size": 0,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1000"
+    },
+    {
+      "size": 0,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1000"
+    },
+    {
+      "size": 0,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1000"
+    },
+    {
+      "size": 0,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1000"
+    },
+    {
+      "size": 300,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "300"
+    },
+    {
+      "size": 300,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "300"
+    },
+    {
+      "size": 300,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1000"
+    },
+    {
+      "size": 300,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1000"
+    },
+    {
+      "size": 300,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1000"
+    },
+    {
+      "size": 300,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1001,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1001"
+    },
+    {
+      "size": 1001,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1001"
+    },
+    {
+      "size": 1001,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1001"
+    },
+    {
+      "size": 1001,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1001"
+    },
+    {
+      "size": 1001,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1001"
+    },
+    {
+      "size": 1001,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 0,
+        "maxTransactions": 0,
+        "transactionAllowance": 0
+      },
+      "result": "1001"
+    },
+    {
+      "size": 0,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "20"
+    },
+    {
+      "size": 0,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "20"
+    },
+    {
+      "size": 0,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "20"
+    },
+    {
+      "size": 0,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "20"
+    },
+    {
+      "size": 0,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "20"
+    },
+    {
+      "size": 0,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "20"
+    },
+    {
+      "size": 1,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "21"
+    },
+    {
+      "size": 1,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "21"
+    },
+    {
+      "size": 1,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "21"
+    },
+    {
+      "size": 1,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "21"
+    },
+    {
+      "size": 1,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "21"
+    },
+    {
+      "size": 1,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "21"
+    },
+    {
+      "size": 300,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "320"
+    },
+    {
+      "size": 300,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "320"
+    },
+    {
+      "size": 300,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "320"
+    },
+    {
+      "size": 300,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "320"
+    },
+    {
+      "size": 300,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "320"
+    },
+    {
+      "size": 300,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "320"
+    },
+    {
+      "size": 1001,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1021"
+    },
+    {
+      "size": 1001,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1021"
+    },
+    {
+      "size": 1001,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1021"
+    },
+    {
+      "size": 1001,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1021"
+    },
+    {
+      "size": 1001,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1021"
+    },
+    {
+      "size": 1001,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 0,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": 20
+      },
+      "result": "1021"
+    },
+    {
+      "size": 0,
+      "growth": -1,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1"
+    },
+    {
+      "size": 0,
+      "growth": 0,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1"
+    },
+    {
+      "size": 0,
+      "growth": 11,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1"
+    },
+    {
+      "size": 0,
+      "growth": 100,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1"
+    },
+    {
+      "size": 0,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1"
+    },
+    {
+      "size": 0,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": -1,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": 0,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": 11,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": 100,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1"
+    },
+    {
+      "size": 1,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1"
+    },
+    {
+      "size": 300,
+      "growth": -1,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "299"
+    },
+    {
+      "size": 300,
+      "growth": 0,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "299"
+    },
+    {
+      "size": 300,
+      "growth": 11,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "299"
+    },
+    {
+      "size": 300,
+      "growth": 100,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "299"
+    },
+    {
+      "size": 300,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "299"
+    },
+    {
+      "size": 300,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "299"
+    },
+    {
+      "size": 1001,
+      "growth": -1,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1001,
+      "growth": 0,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1001,
+      "growth": 11,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1001,
+      "growth": 100,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1001,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1001,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": -1,
+        "growthRoom": -1,
+        "maxTransactions": -1,
+        "transactionAllowance": -1
+      },
+      "result": "1000"
+    },
+    {
+      "size": 0,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "100"
+    },
+    {
+      "size": 0,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "100"
+    },
+    {
+      "size": 0,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "110"
+    },
+    {
+      "size": 0,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 0,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 0,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "100"
+    },
+    {
+      "size": 1,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "100"
+    },
+    {
+      "size": 1,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "110"
+    },
+    {
+      "size": 1,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 300,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "280"
+    },
+    {
+      "size": 300,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "280"
+    },
+    {
+      "size": 300,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "280"
+    },
+    {
+      "size": 300,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 300,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 300,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1001,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "981"
+    },
+    {
+      "size": 1001,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "981"
+    },
+    {
+      "size": 1001,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "981"
+    },
+    {
+      "size": 1001,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1001,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 1001,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000,
+        "growthRoom": 100,
+        "maxTransactions": 10,
+        "transactionAllowance": -20
+      },
+      "result": "1000"
+    },
+    {
+      "size": 0,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 0,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 0,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 0,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 0,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 0,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "9007199254740991"
+    },
+    {
+      "size": 1,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 1,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 1,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 1,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 1,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 1,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "9007199254740991"
+    },
+    {
+      "size": 300,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 300,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 300,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 300,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 300,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 300,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "9007199254740991"
+    },
+    {
+      "size": 1001,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 1001,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 1001,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 1001,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 1001,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "1801439850948"
+    },
+    {
+      "size": 1001,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 9007199254740991,
+        "growthRoom": 9007199254740991,
+        "maxTransactions": 5000,
+        "transactionAllowance": 100
+      },
+      "result": "9007199254740991"
+    },
+    {
+      "size": 0,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "200"
+    },
+    {
+      "size": 0,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "200"
+    },
+    {
+      "size": 0,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "200"
+    },
+    {
+      "size": 0,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "200"
+    },
+    {
+      "size": 0,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "1001"
+    },
+    {
+      "size": 0,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "1000000"
+    },
+    {
+      "size": 1,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "201"
+    },
+    {
+      "size": 1,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "201"
+    },
+    {
+      "size": 1,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "201"
+    },
+    {
+      "size": 1,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "201"
+    },
+    {
+      "size": 1,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "1001"
+    },
+    {
+      "size": 1,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "1000000"
+    },
+    {
+      "size": 300,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "500"
+    },
+    {
+      "size": 300,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "500"
+    },
+    {
+      "size": 300,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "500"
+    },
+    {
+      "size": 300,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "500"
+    },
+    {
+      "size": 300,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "1001"
+    },
+    {
+      "size": 300,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "1000000"
+    },
+    {
+      "size": 1001,
+      "growth": -1,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "1201"
+    },
+    {
+      "size": 1001,
+      "growth": 0,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "1201"
+    },
+    {
+      "size": 1001,
+      "growth": 11,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "1201"
+    },
+    {
+      "size": 1001,
+      "growth": 100,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "1201"
+    },
+    {
+      "size": 1001,
+      "growth": 1001,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "1201"
+    },
+    {
+      "size": 1001,
+      "growth": 9007199254740991,
+      "weight": {
+        "blockRoom": 1000000,
+        "growthRoom": 1000000,
+        "maxTransactions": 5000,
+        "transactionAllowance": 200
+      },
+      "result": "1000000"
+    }
+  ],
+  "rates": [
+    {
+      "lowestFee": "0",
+      "lowestFeeWeight": 1,
+      "weight": 1,
+      "result": "1"
+    },
+    {
+      "lowestFee": "0",
+      "lowestFeeWeight": 1,
+      "weight": 300,
+      "result": "1"
+    },
+    {
+      "lowestFee": "0",
+      "lowestFeeWeight": 1,
+      "weight": 450,
+      "result": "1"
+    },
+    {
+      "lowestFee": "0",
+      "lowestFeeWeight": 1,
+      "weight": 9007199254740991,
+      "result": "1"
+    },
+    {
+      "lowestFee": "0",
+      "lowestFeeWeight": 300,
+      "weight": 1,
+      "result": "1"
+    },
+    {
+      "lowestFee": "0",
+      "lowestFeeWeight": 300,
+      "weight": 300,
+      "result": "1"
+    },
+    {
+      "lowestFee": "0",
+      "lowestFeeWeight": 300,
+      "weight": 450,
+      "result": "1"
+    },
+    {
+      "lowestFee": "0",
+      "lowestFeeWeight": 300,
+      "weight": 9007199254740991,
+      "result": "1"
+    },
+    {
+      "lowestFee": "0",
+      "lowestFeeWeight": 1000,
+      "weight": 1,
+      "result": "1"
+    },
+    {
+      "lowestFee": "0",
+      "lowestFeeWeight": 1000,
+      "weight": 300,
+      "result": "1"
+    },
+    {
+      "lowestFee": "0",
+      "lowestFeeWeight": 1000,
+      "weight": 450,
+      "result": "1"
+    },
+    {
+      "lowestFee": "0",
+      "lowestFeeWeight": 1000,
+      "weight": 9007199254740991,
+      "result": "1"
+    },
+    {
+      "lowestFee": "1",
+      "lowestFeeWeight": 1,
+      "weight": 1,
+      "result": "2"
+    },
+    {
+      "lowestFee": "1",
+      "lowestFeeWeight": 1,
+      "weight": 300,
+      "result": "301"
+    },
+    {
+      "lowestFee": "1",
+      "lowestFeeWeight": 1,
+      "weight": 450,
+      "result": "451"
+    },
+    {
+      "lowestFee": "1",
+      "lowestFeeWeight": 1,
+      "weight": 9007199254740991,
+      "result": "9007199254740992"
+    },
+    {
+      "lowestFee": "1",
+      "lowestFeeWeight": 300,
+      "weight": 1,
+      "result": "1"
+    },
+    {
+      "lowestFee": "1",
+      "lowestFeeWeight": 300,
+      "weight": 300,
+      "result": "2"
+    },
+    {
+      "lowestFee": "1",
+      "lowestFeeWeight": 300,
+      "weight": 450,
+      "result": "2"
+    },
+    {
+      "lowestFee": "1",
+      "lowestFeeWeight": 300,
+      "weight": 9007199254740991,
+      "result": "30023997515804"
+    },
+    {
+      "lowestFee": "1",
+      "lowestFeeWeight": 1000,
+      "weight": 1,
+      "result": "1"
+    },
+    {
+      "lowestFee": "1",
+      "lowestFeeWeight": 1000,
+      "weight": 300,
+      "result": "1"
+    },
+    {
+      "lowestFee": "1",
+      "lowestFeeWeight": 1000,
+      "weight": 450,
+      "result": "1"
+    },
+    {
+      "lowestFee": "1",
+      "lowestFeeWeight": 1000,
+      "weight": 9007199254740991,
+      "result": "9007199254741"
+    },
+    {
+      "lowestFee": "10",
+      "lowestFeeWeight": 1,
+      "weight": 1,
+      "result": "11"
+    },
+    {
+      "lowestFee": "10",
+      "lowestFeeWeight": 1,
+      "weight": 300,
+      "result": "3001"
+    },
+    {
+      "lowestFee": "10",
+      "lowestFeeWeight": 1,
+      "weight": 450,
+      "result": "4501"
+    },
+    {
+      "lowestFee": "10",
+      "lowestFeeWeight": 1,
+      "weight": 9007199254740991,
+      "result": "90071992547409911"
+    },
+    {
+      "lowestFee": "10",
+      "lowestFeeWeight": 300,
+      "weight": 1,
+      "result": "1"
+    },
+    {
+      "lowestFee": "10",
+      "lowestFeeWeight": 300,
+      "weight": 300,
+      "result": "11"
+    },
+    {
+      "lowestFee": "10",
+      "lowestFeeWeight": 300,
+      "weight": 450,
+      "result": "16"
+    },
+    {
+      "lowestFee": "10",
+      "lowestFeeWeight": 300,
+      "weight": 9007199254740991,
+      "result": "300239975158034"
+    },
+    {
+      "lowestFee": "10",
+      "lowestFeeWeight": 1000,
+      "weight": 1,
+      "result": "1"
+    },
+    {
+      "lowestFee": "10",
+      "lowestFeeWeight": 1000,
+      "weight": 300,
+      "result": "4"
+    },
+    {
+      "lowestFee": "10",
+      "lowestFeeWeight": 1000,
+      "weight": 450,
+      "result": "5"
+    },
+    {
+      "lowestFee": "10",
+      "lowestFeeWeight": 1000,
+      "weight": 9007199254740991,
+      "result": "90071992547410"
+    },
+    {
+      "lowestFee": "18446744073709551615",
+      "lowestFeeWeight": 1,
+      "weight": 1,
+      "result": "18446744073709551616"
+    },
+    {
+      "lowestFee": "18446744073709551615",
+      "lowestFeeWeight": 1,
+      "weight": 300,
+      "result": "5534023222112865484501"
+    },
+    {
+      "lowestFee": "18446744073709551615",
+      "lowestFeeWeight": 1,
+      "weight": 450,
+      "result": "8301034833169298226751"
+    },
+    {
+      "lowestFee": "18446744073709551615",
+      "lowestFeeWeight": 1,
+      "weight": 9007199254740991,
+      "result": "166153499473114465657224609570750466"
+    },
+    {
+      "lowestFee": "18446744073709551615",
+      "lowestFeeWeight": 300,
+      "weight": 1,
+      "result": "61489146912365173"
+    },
+    {
+      "lowestFee": "18446744073709551615",
+      "lowestFeeWeight": 300,
+      "weight": 300,
+      "result": "18446744073709551616"
+    },
+    {
+      "lowestFee": "18446744073709551615",
+      "lowestFeeWeight": 300,
+      "weight": 450,
+      "result": "27670116110564327423"
+    },
+    {
+      "lowestFee": "18446744073709551615",
+      "lowestFeeWeight": 300,
+      "weight": 9007199254740991,
+      "result": "553844998243714885524082031902502"
+    },
+    {
+      "lowestFee": "18446744073709551615",
+      "lowestFeeWeight": 1000,
+      "weight": 1,
+      "result": "18446744073709552"
+    },
+    {
+      "lowestFee": "18446744073709551615",
+      "lowestFeeWeight": 1000,
+      "weight": 300,
+      "result": "5534023222112865485"
+    },
+    {
+      "lowestFee": "18446744073709551615",
+      "lowestFeeWeight": 1000,
+      "weight": 450,
+      "result": "8301034833169298227"
+    },
+    {
+      "lowestFee": "18446744073709551615",
+      "lowestFeeWeight": 1000,
+      "weight": 9007199254740991,
+      "result": "166153499473114465657224609570751"
+    }
+  ]
+}

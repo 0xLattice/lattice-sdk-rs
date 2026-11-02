@@ -1,0 +1,13 @@
+<!doctype html><meta charset="utf-8"><title>Lattice Rust SDK browser verification</title>
+<h1>Lattice Rust SDK browser verification</h1><pre id="result">Running…</pre>
+<script type="module">
+import init, {run} from './pkg/browser_smoke.js';
+try {
+  await init();
+  const checks=JSON.parse(await run(location.origin));
+  await new Promise(resolve=>setTimeout(resolve,700));
+  const stats=await (await fetch('/stats')).json();
+  if(stats.redirectTargets!==0 || stats.abortObserved<4 || stats.posts!==1 || stats.authorized<1) throw Error(JSON.stringify(stats));
+  document.querySelector('#result').textContent='PASS\n'+checks.join('\n')+'\nServer evidence: '+JSON.stringify(stats);
+} catch (error) { document.querySelector('#result').textContent='FAIL: '+error;console.error(error); }
+</script>

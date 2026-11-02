@@ -1,0 +1,14 @@
+{
+  "repository": "0xLattice/lattice-sdk",
+  "revision": "3a1be07318f12b85f147e0a5ea55ae68a224e780",
+  "node": "v26.0.0",
+  "cases": 27,
+  "sha256": "0954225d91d16b0248baf0e27150295d9440dabce8243646410c80b6646360e9",
+  "sources": {
+    "packages/core/src/transaction.ts": "9ee09e42c11abcf132bff4892842c9748213c6c123460c2c7a2dad1457d7869a",
+    "packages/core/src/signing.ts": "08c6b6c09b5250c075569c2fd3bd7423922e59b4556bb41decc7122c76deda1f",
+    "packages/core/src/dag-cbor.ts": "7625315d186d3bbd86000392bb0d8d2773a5c3f7d8cdab0cf0a2139964a17f26",
+    "package-lock.json": "c2a4a642d0b39f598400b930c8bd7d7e99c67cd333dede343f4e14175e0596ae",
+    "packages/core/dist/transaction.js": "99cbbf67c70d1fd0221898caf7fe2800674810babab441e5e2a29ca8bc2bee6c"
+  }
+}

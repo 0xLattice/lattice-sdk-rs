@@ -1,0 +1,14 @@
+{
+  "repository": "0xLattice/lattice-sdk",
+  "revision": "3a1be07318f12b85f147e0a5ea55ae68a224e780",
+  "node": "v26.0.0",
+  "cases": 50,
+  "work": 11,
+  "sha256": "357ad0b88a09f4a52b84401e4a9e392d883e8538d69a70823a1c67cd489cdfad",
+  "sources": {
+    "packages/core/src/canonical-values.ts": "848d509aa4d8e3f8f8c8803bece7f7916a191b78c52e32b13a9dad700c31922e",
+    "packages/core/src/dag-cbor.ts": "7625315d186d3bbd86000392bb0d8d2773a5c3f7d8cdab0cf0a2139964a17f26",
+    "packages/core/dist/canonical-values.js": "7122793523662f8fadf9c4ef69994960859d22bcbf091e93bf960fbb47616701",
+    "package-lock.json": "c2a4a642d0b39f598400b930c8bd7d7e99c67cd333dede343f4e14175e0596ae"
+  }
+}

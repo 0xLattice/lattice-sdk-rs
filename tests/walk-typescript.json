@@ -1,0 +1,582 @@
+[
+  {
+    "mode": "bfs_failover",
+    "yielded": [
+      {
+        "url": "https://a1.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "submit": true
+      },
+      {
+        "url": "https://a2.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "submit": false
+      },
+      {
+        "url": "https://b.example",
+        "path": [
+          "Nexus",
+          "B"
+        ],
+        "submit": true
+      },
+      {
+        "url": "https://c.example",
+        "path": [
+          "Nexus",
+          "C"
+        ],
+        "submit": true
+      },
+      {
+        "url": "https://aa.example",
+        "path": [
+          "Nexus",
+          "A",
+          "AA"
+        ],
+        "submit": true
+      },
+      {
+        "url": "https://ab.example",
+        "path": [
+          "Nexus",
+          "A",
+          "AB"
+        ],
+        "submit": true
+      },
+      {
+        "url": "https://ba.example",
+        "path": [
+          "Nexus",
+          "B",
+          "BA"
+        ],
+        "submit": true
+      }
+    ],
+    "directories": [
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": "B",
+        "limit": 200
+      },
+      {
+        "source": "https://a1.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://a1.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "after": "AA",
+        "limit": 200
+      },
+      {
+        "source": "https://a2.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "after": "AA",
+        "limit": 200
+      },
+      {
+        "source": "https://b.example",
+        "path": [
+          "Nexus",
+          "B"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://c.example",
+        "path": [
+          "Nexus",
+          "C"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://aa.example",
+        "path": [
+          "Nexus",
+          "A",
+          "AA"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://ab.example",
+        "path": [
+          "Nexus",
+          "A",
+          "AB"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://ba.example",
+        "path": [
+          "Nexus",
+          "B",
+          "BA"
+        ],
+        "after": null,
+        "limit": 200
+      }
+    ],
+    "requests": 33,
+    "error": null
+  },
+  {
+    "mode": "oversize",
+    "yielded": [],
+    "directories": [
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 100
+      },
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 50
+      },
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 25
+      },
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 12
+      },
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 6
+      },
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 3
+      },
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 1
+      }
+    ],
+    "requests": 10,
+    "error": null
+  },
+  {
+    "mode": "root404",
+    "yielded": [],
+    "directories": [
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 200
+      }
+    ],
+    "requests": 2,
+    "error": null
+  },
+  {
+    "mode": "root503",
+    "yielded": [],
+    "directories": [
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 200
+      }
+    ],
+    "requests": 2,
+    "error": 503
+  },
+  {
+    "mode": "invalid_names",
+    "yielded": [
+      {
+        "url": "https://valid.example",
+        "path": [
+          "Nexus",
+          "Valid"
+        ],
+        "submit": true
+      }
+    ],
+    "directories": [
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://valid.example",
+        "path": [
+          "Nexus",
+          "Valid"
+        ],
+        "after": null,
+        "limit": 200
+      }
+    ],
+    "requests": 6,
+    "error": null
+  },
+  {
+    "mode": "stop_early",
+    "yielded": [
+      {
+        "url": "https://a1.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "submit": true
+      }
+    ],
+    "directories": [
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 200
+      }
+    ],
+    "requests": 7,
+    "error": null
+  },
+  {
+    "mode": "timeout_failover",
+    "yielded": [
+      {
+        "url": "https://a1.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "submit": true
+      },
+      {
+        "url": "https://a2.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "submit": false
+      },
+      {
+        "url": "https://b.example",
+        "path": [
+          "Nexus",
+          "B"
+        ],
+        "submit": true
+      },
+      {
+        "url": "https://c.example",
+        "path": [
+          "Nexus",
+          "C"
+        ],
+        "submit": true
+      },
+      {
+        "url": "https://aa.example",
+        "path": [
+          "Nexus",
+          "A",
+          "AA"
+        ],
+        "submit": true
+      },
+      {
+        "url": "https://ab.example",
+        "path": [
+          "Nexus",
+          "A",
+          "AB"
+        ],
+        "submit": true
+      },
+      {
+        "url": "https://ba.example",
+        "path": [
+          "Nexus",
+          "B",
+          "BA"
+        ],
+        "submit": true
+      }
+    ],
+    "directories": [
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": "B",
+        "limit": 200
+      },
+      {
+        "source": "https://a1.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://a1.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "after": "AA",
+        "limit": 200
+      },
+      {
+        "source": "https://a2.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "after": "AA",
+        "limit": 200
+      },
+      {
+        "source": "https://b.example",
+        "path": [
+          "Nexus",
+          "B"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://c.example",
+        "path": [
+          "Nexus",
+          "C"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://aa.example",
+        "path": [
+          "Nexus",
+          "A",
+          "AA"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://ab.example",
+        "path": [
+          "Nexus",
+          "A",
+          "AB"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://ba.example",
+        "path": [
+          "Nexus",
+          "B",
+          "BA"
+        ],
+        "after": null,
+        "limit": 200
+      }
+    ],
+    "requests": 33,
+    "error": null
+  },
+  {
+    "mode": "root_timeout",
+    "yielded": [],
+    "directories": [
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 200
+      }
+    ],
+    "requests": 2,
+    "error": "TimeoutError"
+  },
+  {
+    "mode": "halving_reset",
+    "yielded": [
+      {
+        "url": "https://a1.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "submit": true
+      },
+      {
+        "url": "https://a2.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "submit": false
+      },
+      {
+        "url": "https://b.example",
+        "path": [
+          "Nexus",
+          "B"
+        ],
+        "submit": true
+      }
+    ],
+    "directories": [
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": null,
+        "limit": 100
+      },
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": "A",
+        "limit": 200
+      },
+      {
+        "source": "https://root.example",
+        "path": [
+          "Nexus"
+        ],
+        "after": "A",
+        "limit": 100
+      },
+      {
+        "source": "https://a1.example",
+        "path": [
+          "Nexus",
+          "A"
+        ],
+        "after": null,
+        "limit": 200
+      },
+      {
+        "source": "https://b.example",
+        "path": [
+          "Nexus",
+          "B"
+        ],
+        "after": null,
+        "limit": 200
+      }
+    ],
+    "requests": 15,
+    "error": null
+  }
+]

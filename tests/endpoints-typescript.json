@@ -1,0 +1,1242 @@
+[
+  {
+    "input": "http://127.0.0.1",
+    "result": null
+  },
+  {
+    "input": "http://127.0.0.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://127.0.0.1?",
+    "result": null
+  },
+  {
+    "input": "http://127.0.0.1#",
+    "result": null
+  },
+  {
+    "input": "http://127.0.0.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://127.0.0.1",
+    "result": null
+  },
+  {
+    "input": "https://127.0.0.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://127.0.0.1?",
+    "result": null
+  },
+  {
+    "input": "https://127.0.0.1#",
+    "result": null
+  },
+  {
+    "input": "https://127.0.0.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://127.1",
+    "result": null
+  },
+  {
+    "input": "http://127.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://127.1?",
+    "result": null
+  },
+  {
+    "input": "http://127.1#",
+    "result": null
+  },
+  {
+    "input": "http://127.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://127.1",
+    "result": null
+  },
+  {
+    "input": "https://127.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://127.1?",
+    "result": null
+  },
+  {
+    "input": "https://127.1#",
+    "result": null
+  },
+  {
+    "input": "https://127.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://0x7f000001",
+    "result": null
+  },
+  {
+    "input": "http://0x7f000001/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://0x7f000001?",
+    "result": null
+  },
+  {
+    "input": "http://0x7f000001#",
+    "result": null
+  },
+  {
+    "input": "http://0x7f000001/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://0x7f000001",
+    "result": null
+  },
+  {
+    "input": "https://0x7f000001/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://0x7f000001?",
+    "result": null
+  },
+  {
+    "input": "https://0x7f000001#",
+    "result": null
+  },
+  {
+    "input": "https://0x7f000001/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://10.1.1.1",
+    "result": null
+  },
+  {
+    "input": "http://10.1.1.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://10.1.1.1?",
+    "result": null
+  },
+  {
+    "input": "http://10.1.1.1#",
+    "result": null
+  },
+  {
+    "input": "http://10.1.1.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://10.1.1.1",
+    "result": null
+  },
+  {
+    "input": "https://10.1.1.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://10.1.1.1?",
+    "result": null
+  },
+  {
+    "input": "https://10.1.1.1#",
+    "result": null
+  },
+  {
+    "input": "https://10.1.1.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://172.16.1.1",
+    "result": null
+  },
+  {
+    "input": "http://172.16.1.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://172.16.1.1?",
+    "result": null
+  },
+  {
+    "input": "http://172.16.1.1#",
+    "result": null
+  },
+  {
+    "input": "http://172.16.1.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://172.16.1.1",
+    "result": null
+  },
+  {
+    "input": "https://172.16.1.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://172.16.1.1?",
+    "result": null
+  },
+  {
+    "input": "https://172.16.1.1#",
+    "result": null
+  },
+  {
+    "input": "https://172.16.1.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://172.32.1.1",
+    "result": null
+  },
+  {
+    "input": "http://172.32.1.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://172.32.1.1?",
+    "result": null
+  },
+  {
+    "input": "http://172.32.1.1#",
+    "result": null
+  },
+  {
+    "input": "http://172.32.1.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://172.32.1.1",
+    "result": "https://172.32.1.1"
+  },
+  {
+    "input": "https://172.32.1.1/rpc/",
+    "result": "https://172.32.1.1/rpc"
+  },
+  {
+    "input": "https://172.32.1.1?",
+    "result": null
+  },
+  {
+    "input": "https://172.32.1.1#",
+    "result": null
+  },
+  {
+    "input": "https://172.32.1.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://192.168.0.1",
+    "result": null
+  },
+  {
+    "input": "http://192.168.0.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://192.168.0.1?",
+    "result": null
+  },
+  {
+    "input": "http://192.168.0.1#",
+    "result": null
+  },
+  {
+    "input": "http://192.168.0.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://192.168.0.1",
+    "result": null
+  },
+  {
+    "input": "https://192.168.0.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://192.168.0.1?",
+    "result": null
+  },
+  {
+    "input": "https://192.168.0.1#",
+    "result": null
+  },
+  {
+    "input": "https://192.168.0.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://192.0.2.1",
+    "result": null
+  },
+  {
+    "input": "http://192.0.2.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://192.0.2.1?",
+    "result": null
+  },
+  {
+    "input": "http://192.0.2.1#",
+    "result": null
+  },
+  {
+    "input": "http://192.0.2.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://192.0.2.1",
+    "result": null
+  },
+  {
+    "input": "https://192.0.2.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://192.0.2.1?",
+    "result": null
+  },
+  {
+    "input": "https://192.0.2.1#",
+    "result": null
+  },
+  {
+    "input": "https://192.0.2.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://100.64.0.1",
+    "result": null
+  },
+  {
+    "input": "http://100.64.0.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://100.64.0.1?",
+    "result": null
+  },
+  {
+    "input": "http://100.64.0.1#",
+    "result": null
+  },
+  {
+    "input": "http://100.64.0.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://100.64.0.1",
+    "result": null
+  },
+  {
+    "input": "https://100.64.0.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://100.64.0.1?",
+    "result": null
+  },
+  {
+    "input": "https://100.64.0.1#",
+    "result": null
+  },
+  {
+    "input": "https://100.64.0.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://100.128.0.1",
+    "result": null
+  },
+  {
+    "input": "http://100.128.0.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://100.128.0.1?",
+    "result": null
+  },
+  {
+    "input": "http://100.128.0.1#",
+    "result": null
+  },
+  {
+    "input": "http://100.128.0.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://100.128.0.1",
+    "result": "https://100.128.0.1"
+  },
+  {
+    "input": "https://100.128.0.1/rpc/",
+    "result": "https://100.128.0.1/rpc"
+  },
+  {
+    "input": "https://100.128.0.1?",
+    "result": null
+  },
+  {
+    "input": "https://100.128.0.1#",
+    "result": null
+  },
+  {
+    "input": "https://100.128.0.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://8.8.8.8",
+    "result": null
+  },
+  {
+    "input": "http://8.8.8.8/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://8.8.8.8?",
+    "result": null
+  },
+  {
+    "input": "http://8.8.8.8#",
+    "result": null
+  },
+  {
+    "input": "http://8.8.8.8/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://8.8.8.8",
+    "result": "https://8.8.8.8"
+  },
+  {
+    "input": "https://8.8.8.8/rpc/",
+    "result": "https://8.8.8.8/rpc"
+  },
+  {
+    "input": "https://8.8.8.8?",
+    "result": null
+  },
+  {
+    "input": "https://8.8.8.8#",
+    "result": null
+  },
+  {
+    "input": "https://8.8.8.8/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://198.18.0.1",
+    "result": null
+  },
+  {
+    "input": "http://198.18.0.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://198.18.0.1?",
+    "result": null
+  },
+  {
+    "input": "http://198.18.0.1#",
+    "result": null
+  },
+  {
+    "input": "http://198.18.0.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://198.18.0.1",
+    "result": null
+  },
+  {
+    "input": "https://198.18.0.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://198.18.0.1?",
+    "result": null
+  },
+  {
+    "input": "https://198.18.0.1#",
+    "result": null
+  },
+  {
+    "input": "https://198.18.0.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://203.0.113.1",
+    "result": null
+  },
+  {
+    "input": "http://203.0.113.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://203.0.113.1?",
+    "result": null
+  },
+  {
+    "input": "http://203.0.113.1#",
+    "result": null
+  },
+  {
+    "input": "http://203.0.113.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://203.0.113.1",
+    "result": null
+  },
+  {
+    "input": "https://203.0.113.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://203.0.113.1?",
+    "result": null
+  },
+  {
+    "input": "https://203.0.113.1#",
+    "result": null
+  },
+  {
+    "input": "https://203.0.113.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://224.0.0.1",
+    "result": null
+  },
+  {
+    "input": "http://224.0.0.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://224.0.0.1?",
+    "result": null
+  },
+  {
+    "input": "http://224.0.0.1#",
+    "result": null
+  },
+  {
+    "input": "http://224.0.0.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://224.0.0.1",
+    "result": null
+  },
+  {
+    "input": "https://224.0.0.1/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://224.0.0.1?",
+    "result": null
+  },
+  {
+    "input": "https://224.0.0.1#",
+    "result": null
+  },
+  {
+    "input": "https://224.0.0.1/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://[::1]",
+    "result": null
+  },
+  {
+    "input": "http://[::1]/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://[::1]?",
+    "result": null
+  },
+  {
+    "input": "http://[::1]#",
+    "result": null
+  },
+  {
+    "input": "http://[::1]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://[::1]",
+    "result": null
+  },
+  {
+    "input": "https://[::1]/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://[::1]?",
+    "result": null
+  },
+  {
+    "input": "https://[::1]#",
+    "result": null
+  },
+  {
+    "input": "https://[::1]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://[::ffff:127.0.0.1]",
+    "result": null
+  },
+  {
+    "input": "http://[::ffff:127.0.0.1]/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://[::ffff:127.0.0.1]?",
+    "result": null
+  },
+  {
+    "input": "http://[::ffff:127.0.0.1]#",
+    "result": null
+  },
+  {
+    "input": "http://[::ffff:127.0.0.1]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://[::ffff:127.0.0.1]",
+    "result": null
+  },
+  {
+    "input": "https://[::ffff:127.0.0.1]/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://[::ffff:127.0.0.1]?",
+    "result": null
+  },
+  {
+    "input": "https://[::ffff:127.0.0.1]#",
+    "result": null
+  },
+  {
+    "input": "https://[::ffff:127.0.0.1]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://[::ffff:808:808]",
+    "result": null
+  },
+  {
+    "input": "http://[::ffff:808:808]/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://[::ffff:808:808]?",
+    "result": null
+  },
+  {
+    "input": "http://[::ffff:808:808]#",
+    "result": null
+  },
+  {
+    "input": "http://[::ffff:808:808]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://[::ffff:808:808]",
+    "result": "https://[::ffff:808:808]"
+  },
+  {
+    "input": "https://[::ffff:808:808]/rpc/",
+    "result": "https://[::ffff:808:808]/rpc"
+  },
+  {
+    "input": "https://[::ffff:808:808]?",
+    "result": null
+  },
+  {
+    "input": "https://[::ffff:808:808]#",
+    "result": null
+  },
+  {
+    "input": "https://[::ffff:808:808]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://[64:ff9b::a00:1]",
+    "result": null
+  },
+  {
+    "input": "http://[64:ff9b::a00:1]/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://[64:ff9b::a00:1]?",
+    "result": null
+  },
+  {
+    "input": "http://[64:ff9b::a00:1]#",
+    "result": null
+  },
+  {
+    "input": "http://[64:ff9b::a00:1]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://[64:ff9b::a00:1]",
+    "result": null
+  },
+  {
+    "input": "https://[64:ff9b::a00:1]/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://[64:ff9b::a00:1]?",
+    "result": null
+  },
+  {
+    "input": "https://[64:ff9b::a00:1]#",
+    "result": null
+  },
+  {
+    "input": "https://[64:ff9b::a00:1]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://[64:ff9b::808:808]",
+    "result": null
+  },
+  {
+    "input": "http://[64:ff9b::808:808]/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://[64:ff9b::808:808]?",
+    "result": null
+  },
+  {
+    "input": "http://[64:ff9b::808:808]#",
+    "result": null
+  },
+  {
+    "input": "http://[64:ff9b::808:808]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://[64:ff9b::808:808]",
+    "result": "https://[64:ff9b::808:808]"
+  },
+  {
+    "input": "https://[64:ff9b::808:808]/rpc/",
+    "result": "https://[64:ff9b::808:808]/rpc"
+  },
+  {
+    "input": "https://[64:ff9b::808:808]?",
+    "result": null
+  },
+  {
+    "input": "https://[64:ff9b::808:808]#",
+    "result": null
+  },
+  {
+    "input": "https://[64:ff9b::808:808]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://[2002:7f00:1::]",
+    "result": null
+  },
+  {
+    "input": "http://[2002:7f00:1::]/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://[2002:7f00:1::]?",
+    "result": null
+  },
+  {
+    "input": "http://[2002:7f00:1::]#",
+    "result": null
+  },
+  {
+    "input": "http://[2002:7f00:1::]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://[2002:7f00:1::]",
+    "result": null
+  },
+  {
+    "input": "https://[2002:7f00:1::]/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://[2002:7f00:1::]?",
+    "result": null
+  },
+  {
+    "input": "https://[2002:7f00:1::]#",
+    "result": null
+  },
+  {
+    "input": "https://[2002:7f00:1::]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://[2002:808:808::]",
+    "result": null
+  },
+  {
+    "input": "http://[2002:808:808::]/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://[2002:808:808::]?",
+    "result": null
+  },
+  {
+    "input": "http://[2002:808:808::]#",
+    "result": null
+  },
+  {
+    "input": "http://[2002:808:808::]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://[2002:808:808::]",
+    "result": "https://[2002:808:808::]"
+  },
+  {
+    "input": "https://[2002:808:808::]/rpc/",
+    "result": "https://[2002:808:808::]/rpc"
+  },
+  {
+    "input": "https://[2002:808:808::]?",
+    "result": null
+  },
+  {
+    "input": "https://[2002:808:808::]#",
+    "result": null
+  },
+  {
+    "input": "https://[2002:808:808::]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://[2001:db8::1]",
+    "result": null
+  },
+  {
+    "input": "http://[2001:db8::1]/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://[2001:db8::1]?",
+    "result": null
+  },
+  {
+    "input": "http://[2001:db8::1]#",
+    "result": null
+  },
+  {
+    "input": "http://[2001:db8::1]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://[2001:db8::1]",
+    "result": null
+  },
+  {
+    "input": "https://[2001:db8::1]/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://[2001:db8::1]?",
+    "result": null
+  },
+  {
+    "input": "https://[2001:db8::1]#",
+    "result": null
+  },
+  {
+    "input": "https://[2001:db8::1]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://[2001:4860:4860::8888]",
+    "result": null
+  },
+  {
+    "input": "http://[2001:4860:4860::8888]/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://[2001:4860:4860::8888]?",
+    "result": null
+  },
+  {
+    "input": "http://[2001:4860:4860::8888]#",
+    "result": null
+  },
+  {
+    "input": "http://[2001:4860:4860::8888]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://[2001:4860:4860::8888]",
+    "result": "https://[2001:4860:4860::8888]"
+  },
+  {
+    "input": "https://[2001:4860:4860::8888]/rpc/",
+    "result": "https://[2001:4860:4860::8888]/rpc"
+  },
+  {
+    "input": "https://[2001:4860:4860::8888]?",
+    "result": null
+  },
+  {
+    "input": "https://[2001:4860:4860::8888]#",
+    "result": null
+  },
+  {
+    "input": "https://[2001:4860:4860::8888]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://[fc00::1]",
+    "result": null
+  },
+  {
+    "input": "http://[fc00::1]/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://[fc00::1]?",
+    "result": null
+  },
+  {
+    "input": "http://[fc00::1]#",
+    "result": null
+  },
+  {
+    "input": "http://[fc00::1]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://[fc00::1]",
+    "result": null
+  },
+  {
+    "input": "https://[fc00::1]/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://[fc00::1]?",
+    "result": null
+  },
+  {
+    "input": "https://[fc00::1]#",
+    "result": null
+  },
+  {
+    "input": "https://[fc00::1]/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://localhost",
+    "result": null
+  },
+  {
+    "input": "http://localhost/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://localhost?",
+    "result": null
+  },
+  {
+    "input": "http://localhost#",
+    "result": null
+  },
+  {
+    "input": "http://localhost/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://localhost",
+    "result": null
+  },
+  {
+    "input": "https://localhost/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://localhost?",
+    "result": null
+  },
+  {
+    "input": "https://localhost#",
+    "result": null
+  },
+  {
+    "input": "https://localhost/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://node.local",
+    "result": null
+  },
+  {
+    "input": "http://node.local/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://node.local?",
+    "result": null
+  },
+  {
+    "input": "http://node.local#",
+    "result": null
+  },
+  {
+    "input": "http://node.local/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://node.local",
+    "result": null
+  },
+  {
+    "input": "https://node.local/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://node.local?",
+    "result": null
+  },
+  {
+    "input": "https://node.local#",
+    "result": null
+  },
+  {
+    "input": "https://node.local/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://node.internal",
+    "result": null
+  },
+  {
+    "input": "http://node.internal/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://node.internal?",
+    "result": null
+  },
+  {
+    "input": "http://node.internal#",
+    "result": null
+  },
+  {
+    "input": "http://node.internal/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://node.internal",
+    "result": null
+  },
+  {
+    "input": "https://node.internal/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://node.internal?",
+    "result": null
+  },
+  {
+    "input": "https://node.internal#",
+    "result": null
+  },
+  {
+    "input": "https://node.internal/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://node.home.arpa",
+    "result": null
+  },
+  {
+    "input": "http://node.home.arpa/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://node.home.arpa?",
+    "result": null
+  },
+  {
+    "input": "http://node.home.arpa#",
+    "result": null
+  },
+  {
+    "input": "http://node.home.arpa/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://node.home.arpa",
+    "result": null
+  },
+  {
+    "input": "https://node.home.arpa/rpc/",
+    "result": null
+  },
+  {
+    "input": "https://node.home.arpa?",
+    "result": null
+  },
+  {
+    "input": "https://node.home.arpa#",
+    "result": null
+  },
+  {
+    "input": "https://node.home.arpa/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://node.example",
+    "result": null
+  },
+  {
+    "input": "http://node.example/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://node.example?",
+    "result": null
+  },
+  {
+    "input": "http://node.example#",
+    "result": null
+  },
+  {
+    "input": "http://node.example/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://node.example",
+    "result": "https://node.example"
+  },
+  {
+    "input": "https://node.example/rpc/",
+    "result": "https://node.example/rpc"
+  },
+  {
+    "input": "https://node.example?",
+    "result": null
+  },
+  {
+    "input": "https://node.example#",
+    "result": null
+  },
+  {
+    "input": "https://node.example/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://NODE.EXAMPLE.",
+    "result": null
+  },
+  {
+    "input": "http://NODE.EXAMPLE./rpc/",
+    "result": null
+  },
+  {
+    "input": "http://NODE.EXAMPLE.?",
+    "result": null
+  },
+  {
+    "input": "http://NODE.EXAMPLE.#",
+    "result": null
+  },
+  {
+    "input": "http://NODE.EXAMPLE./rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://NODE.EXAMPLE.",
+    "result": "https://node.example."
+  },
+  {
+    "input": "https://NODE.EXAMPLE./rpc/",
+    "result": "https://node.example./rpc"
+  },
+  {
+    "input": "https://NODE.EXAMPLE.?",
+    "result": null
+  },
+  {
+    "input": "https://NODE.EXAMPLE.#",
+    "result": null
+  },
+  {
+    "input": "https://NODE.EXAMPLE./rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "http://bücher.example",
+    "result": null
+  },
+  {
+    "input": "http://bücher.example/rpc/",
+    "result": null
+  },
+  {
+    "input": "http://bücher.example?",
+    "result": null
+  },
+  {
+    "input": "http://bücher.example#",
+    "result": null
+  },
+  {
+    "input": "http://bücher.example/rpc?x=1",
+    "result": null
+  },
+  {
+    "input": "https://bücher.example",
+    "result": "https://xn--bcher-kva.example"
+  },
+  {
+    "input": "https://bücher.example/rpc/",
+    "result": "https://xn--bcher-kva.example/rpc"
+  },
+  {
+    "input": "https://bücher.example?",
+    "result": null
+  },
+  {
+    "input": "https://bücher.example#",
+    "result": null
+  },
+  {
+    "input": "https://bücher.example/rpc?x=1",
+    "result": null
+  }
+]

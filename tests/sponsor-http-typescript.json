@@ -1,0 +1,411 @@
+{
+  "work": [
+    {
+      "name": "valid",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "0f",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": true
+    },
+    {
+      "name": "empty-prefix",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "",
+        "shareTarget": "0f",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": true
+    },
+    {
+      "name": "upper-prefix",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "AB",
+        "shareTarget": "0f",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": false
+    },
+    {
+      "name": "odd-prefix",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "a",
+        "shareTarget": "0f",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": false
+    },
+    {
+      "name": "upper-target",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "AB",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": false
+    },
+    {
+      "name": "empty-target",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": false
+    },
+    {
+      "name": "large-target",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": false
+    },
+    {
+      "name": "zero-target",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "0",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": true
+    },
+    {
+      "name": "leading-target",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "000f",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": true
+    },
+    {
+      "name": "numeric-count",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "0f",
+        "startNonce": "18446744073709551616",
+        "count": 2,
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": false
+    },
+    {
+      "name": "negative-count",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "0f",
+        "startNonce": "18446744073709551616",
+        "count": "-1",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": false
+    },
+    {
+      "name": "leading-count",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "0f",
+        "startNonce": "18446744073709551616",
+        "count": "02",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": false
+    },
+    {
+      "name": "huge-count",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "0f",
+        "startNonce": "18446744073709551616",
+        "count": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": true
+    },
+    {
+      "name": "null-client",
+      "answer": {
+        "client": null,
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "0f",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": false
+    },
+    {
+      "name": "missing-assignment",
+      "answer": {
+        "client": "client",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "0f",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "30000"
+      },
+      "accepted": false
+    },
+    {
+      "name": "zero-expiry",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "0f",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "0"
+      },
+      "accepted": true
+    },
+    {
+      "name": "noncanonical-expiry",
+      "answer": {
+        "client": "client",
+        "assignment": "assignment",
+        "prefixHex": "0xdeadbeef",
+        "shareTarget": "0f",
+        "startNonce": "18446744073709551616",
+        "count": "20",
+        "fee": "5",
+        "pay": "2",
+        "sharesForFee": "7",
+        "expiresInMilliseconds": "00"
+      },
+      "accepted": false
+    }
+  ],
+  "status": [
+    {
+      "name": "valid",
+      "answer": {
+        "root": "root",
+        "bytes": "184467440737095516160",
+        "needed": {
+          "Nexus": "2",
+          "Nexus/Child": "5"
+        },
+        "credit": "1",
+        "stored": false
+      },
+      "accepted": true
+    },
+    {
+      "name": "array-needed",
+      "answer": {
+        "root": "root",
+        "bytes": "184467440737095516160",
+        "needed": [
+          "2",
+          "3"
+        ],
+        "credit": "1",
+        "stored": false
+      },
+      "accepted": true
+    },
+    {
+      "name": "empty-array",
+      "answer": {
+        "root": "root",
+        "bytes": "184467440737095516160",
+        "needed": [],
+        "credit": "1",
+        "stored": false
+      },
+      "accepted": true
+    },
+    {
+      "name": "null-needed",
+      "answer": {
+        "root": "root",
+        "bytes": "184467440737095516160",
+        "needed": null,
+        "credit": "1",
+        "stored": false
+      },
+      "accepted": false
+    },
+    {
+      "name": "numeric-needed",
+      "answer": {
+        "root": "root",
+        "bytes": "184467440737095516160",
+        "needed": {
+          "Nexus": 2,
+          "Nexus/Child": "5"
+        },
+        "credit": "1",
+        "stored": false
+      },
+      "accepted": false
+    },
+    {
+      "name": "negative-needed",
+      "answer": {
+        "root": "root",
+        "bytes": "184467440737095516160",
+        "needed": {
+          "Nexus": "-1",
+          "Nexus/Child": "5"
+        },
+        "credit": "1",
+        "stored": false
+      },
+      "accepted": false
+    },
+    {
+      "name": "leading-bytes",
+      "answer": {
+        "root": "root",
+        "bytes": "01",
+        "needed": {
+          "Nexus": "2",
+          "Nexus/Child": "5"
+        },
+        "credit": "1",
+        "stored": false
+      },
+      "accepted": false
+    },
+    {
+      "name": "boolean-string",
+      "answer": {
+        "root": "root",
+        "bytes": "184467440737095516160",
+        "needed": {
+          "Nexus": "2",
+          "Nexus/Child": "5"
+        },
+        "credit": "1",
+        "stored": "true"
+      },
+      "accepted": false
+    },
+    {
+      "name": "stored",
+      "answer": {
+        "root": "root",
+        "bytes": "184467440737095516160",
+        "needed": {
+          "Nexus": "2",
+          "Nexus/Child": "5"
+        },
+        "credit": "1",
+        "stored": true
+      },
+      "accepted": true
+    },
+    {
+      "name": "null-root",
+      "answer": {
+        "root": null,
+        "bytes": "184467440737095516160",
+        "needed": {
+          "Nexus": "2",
+          "Nexus/Child": "5"
+        },
+        "credit": "1",
+        "stored": false
+      },
+      "accepted": false
+    }
+  ]
+}

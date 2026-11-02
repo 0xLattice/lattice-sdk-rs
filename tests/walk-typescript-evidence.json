@@ -1,0 +1,7 @@
+{
+  "sdk_sha": "3a1be07318f12b85f147e0a5ea55ae68a224e780",
+  "node": "v26.0.0",
+  "source_sha256": "c3ce2ac90180b6cceda8d52942195e7d189b0aad989915ba8863352b4e16e22f",
+  "fixture_sha256": "edb4d0c737242fc005c270a717b03d55f932c8f4f9288334e88551e78f0f327a",
+  "scope": "Actual SDK EndpointResolver.walk with deterministic injected HTTP responses, including lazy early stop, BFS pages/failover, response-size halving and root errors."
+}

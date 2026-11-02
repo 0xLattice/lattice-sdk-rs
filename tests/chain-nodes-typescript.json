@@ -1,0 +1,1053 @@
+[
+  {
+    "name": "own_and_found_dedup",
+    "serves": {
+      "https://a.example/Nexus/A": true,
+      "https://b.example/Nexus/A": true,
+      "https://a.example/Nexus": true
+    },
+    "declared": {
+      "https://a.example": [
+        "https://a.example",
+        "https://c.example"
+      ]
+    },
+    "reads": 4,
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "declared",
+          "url": "https://a.example",
+          "ancestor": [
+            "Nexus"
+          ],
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        }
+      ],
+      "readCalls": [
+        "https://a.example",
+        "https://b.example",
+        "https://c.example",
+        "https://a.example"
+      ],
+      "results": [
+        {
+          "list": [
+            {
+              "url": "https://a.example",
+              "found": false
+            },
+            {
+              "url": "https://b.example",
+              "found": false
+            },
+            {
+              "url": "https://c.example",
+              "found": true
+            }
+          ],
+          "chosen": {
+            "url": "https://a.example",
+            "found": false
+          }
+        },
+        {
+          "list": [
+            {
+              "url": "https://a.example",
+              "found": false
+            },
+            {
+              "url": "https://b.example",
+              "found": false
+            },
+            {
+              "url": "https://c.example",
+              "found": true
+            }
+          ],
+          "chosen": {
+            "url": "https://b.example",
+            "found": false
+          }
+        },
+        {
+          "list": [
+            {
+              "url": "https://a.example",
+              "found": false
+            },
+            {
+              "url": "https://b.example",
+              "found": false
+            },
+            {
+              "url": "https://c.example",
+              "found": true
+            }
+          ],
+          "chosen": {
+            "url": "https://c.example",
+            "found": true
+          }
+        },
+        {
+          "list": [
+            {
+              "url": "https://a.example",
+              "found": false
+            },
+            {
+              "url": "https://b.example",
+              "found": false
+            },
+            {
+              "url": "https://c.example",
+              "found": true
+            }
+          ],
+          "chosen": {
+            "url": "https://a.example",
+            "found": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "all_offline",
+    "serves": {},
+    "declared": {},
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus"
+          ]
+        }
+      ],
+      "readCalls": [],
+      "results": [
+        {
+          "error": "ChainOfflineError"
+        }
+      ]
+    }
+  },
+  {
+    "name": "all_fail_first_error",
+    "serves": {
+      "https://a.example/Nexus/A": 503,
+      "https://b.example/Nexus/A": 502
+    },
+    "declared": {},
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        }
+      ],
+      "readCalls": [],
+      "results": [
+        {
+          "error": 503
+        }
+      ]
+    }
+  },
+  {
+    "name": "partial_failure_empty",
+    "serves": {
+      "https://a.example/Nexus/A": 503
+    },
+    "declared": {},
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus"
+          ]
+        }
+      ],
+      "readCalls": [],
+      "results": [
+        {
+          "error": 503
+        }
+      ]
+    }
+  },
+  {
+    "name": "own_directory_failure",
+    "serves": {
+      "https://a.example/Nexus/A": true,
+      "https://a.example/Nexus": true
+    },
+    "declared": {
+      "https://a.example": 502
+    },
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "declared",
+          "url": "https://a.example",
+          "ancestor": [
+            "Nexus"
+          ],
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus"
+          ]
+        }
+      ],
+      "readCalls": [
+        "https://a.example"
+      ],
+      "results": [
+        {
+          "list": [
+            {
+              "url": "https://a.example",
+              "found": false
+            }
+          ],
+          "chosen": {
+            "url": "https://a.example",
+            "found": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "failed_walk_then_empty",
+    "serves": {
+      "https://a.example/Nexus": true,
+      "https://b.example/Nexus": true
+    },
+    "declared": {
+      "https://a.example": 503,
+      "https://b.example": []
+    },
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "declared",
+          "url": "https://a.example",
+          "ancestor": [
+            "Nexus"
+          ],
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "declared",
+          "url": "https://b.example",
+          "ancestor": [
+            "Nexus"
+          ],
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        }
+      ],
+      "readCalls": [],
+      "results": [
+        {
+          "error": 503
+        }
+      ]
+    }
+  },
+  {
+    "name": "empty_first_stops",
+    "serves": {
+      "https://a.example/Nexus": true,
+      "https://b.example/Nexus": true
+    },
+    "declared": {
+      "https://a.example": [],
+      "https://b.example": [
+        "https://c.example"
+      ]
+    },
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "declared",
+          "url": "https://a.example",
+          "ancestor": [
+            "Nexus"
+          ],
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        }
+      ],
+      "readCalls": [],
+      "results": [
+        {
+          "error": "ChainOfflineError"
+        }
+      ]
+    }
+  },
+  {
+    "name": "failed_walk_then_hosts",
+    "serves": {
+      "https://a.example/Nexus": true,
+      "https://b.example/Nexus": true
+    },
+    "declared": {
+      "https://a.example": 503,
+      "https://b.example": [
+        "https://c.example"
+      ]
+    },
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "declared",
+          "url": "https://a.example",
+          "ancestor": [
+            "Nexus"
+          ],
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "declared",
+          "url": "https://b.example",
+          "ancestor": [
+            "Nexus"
+          ],
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        }
+      ],
+      "readCalls": [
+        "https://c.example"
+      ],
+      "results": [
+        {
+          "list": [
+            {
+              "url": "https://c.example",
+              "found": true
+            }
+          ],
+          "chosen": {
+            "url": "https://c.example",
+            "found": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "nearest_ancestor",
+    "path": [
+      "Nexus",
+      "A",
+      "B"
+    ],
+    "serves": {
+      "https://a.example/Nexus": true
+    },
+    "declared": {
+      "https://a.example": [
+        "https://c.example"
+      ]
+    },
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "declared",
+          "url": "https://a.example",
+          "ancestor": [
+            "Nexus"
+          ],
+          "path": [
+            "Nexus",
+            "A",
+            "B"
+          ]
+        }
+      ],
+      "readCalls": [
+        "https://c.example"
+      ],
+      "results": [
+        {
+          "list": [
+            {
+              "url": "https://c.example",
+              "found": true
+            }
+          ],
+          "chosen": {
+            "url": "https://c.example",
+            "found": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "random_round_robin",
+    "random": 4.656612873077393e-10,
+    "serves": {
+      "https://a.example/Nexus/A": true,
+      "https://b.example/Nexus/A": true
+    },
+    "declared": {},
+    "reads": 4,
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus"
+          ]
+        }
+      ],
+      "readCalls": [
+        "https://a.example",
+        "https://b.example",
+        "https://a.example",
+        "https://b.example"
+      ],
+      "results": [
+        {
+          "list": [
+            {
+              "url": "https://a.example",
+              "found": false
+            },
+            {
+              "url": "https://b.example",
+              "found": false
+            }
+          ],
+          "chosen": {
+            "url": "https://a.example",
+            "found": false
+          }
+        },
+        {
+          "list": [
+            {
+              "url": "https://a.example",
+              "found": false
+            },
+            {
+              "url": "https://b.example",
+              "found": false
+            }
+          ],
+          "chosen": {
+            "url": "https://b.example",
+            "found": false
+          }
+        },
+        {
+          "list": [
+            {
+              "url": "https://a.example",
+              "found": false
+            },
+            {
+              "url": "https://b.example",
+              "found": false
+            }
+          ],
+          "chosen": {
+            "url": "https://a.example",
+            "found": false
+          }
+        },
+        {
+          "list": [
+            {
+              "url": "https://a.example",
+              "found": false
+            },
+            {
+              "url": "https://b.example",
+              "found": false
+            }
+          ],
+          "chosen": {
+            "url": "https://b.example",
+            "found": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "read_failover_last_error",
+    "serves": {
+      "https://a.example/Nexus/A": true,
+      "https://b.example/Nexus/A": true
+    },
+    "declared": {},
+    "reads": 3,
+    "readErrors": {
+      "https://a.example": 501,
+      "https://b.example": 502
+    },
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus"
+          ]
+        }
+      ],
+      "readCalls": [
+        "https://a.example",
+        "https://b.example",
+        "https://b.example",
+        "https://a.example",
+        "https://a.example",
+        "https://b.example"
+      ],
+      "results": [
+        {
+          "error": 502
+        },
+        {
+          "error": 501
+        },
+        {
+          "error": 502
+        }
+      ]
+    }
+  },
+  {
+    "name": "walk_rotates_on_expiry",
+    "serves": {
+      "https://a.example/Nexus": true,
+      "https://b.example/Nexus": true
+    },
+    "declared": {
+      "https://a.example": [
+        "https://a.example"
+      ],
+      "https://b.example": [
+        "https://b.example"
+      ]
+    },
+    "reads": 3,
+    "advance": 100,
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "declared",
+          "url": "https://a.example",
+          "ancestor": [
+            "Nexus"
+          ],
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "declared",
+          "url": "https://b.example",
+          "ancestor": [
+            "Nexus"
+          ],
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus"
+          ]
+        },
+        {
+          "kind": "declared",
+          "url": "https://a.example",
+          "ancestor": [
+            "Nexus"
+          ],
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        }
+      ],
+      "readCalls": [
+        "https://a.example",
+        "https://b.example",
+        "https://a.example"
+      ],
+      "results": [
+        {
+          "list": [
+            {
+              "url": "https://a.example",
+              "found": true
+            }
+          ],
+          "chosen": {
+            "url": "https://a.example",
+            "found": true
+          }
+        },
+        {
+          "list": [
+            {
+              "url": "https://b.example",
+              "found": true
+            }
+          ],
+          "chosen": {
+            "url": "https://b.example",
+            "found": true
+          }
+        },
+        {
+          "list": [
+            {
+              "url": "https://a.example",
+              "found": true
+            }
+          ],
+          "chosen": {
+            "url": "https://a.example",
+            "found": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "failed_discovery_retries",
+    "serves": {
+      "https://a.example/Nexus/A": 503,
+      "https://b.example/Nexus/A": 502
+    },
+    "declared": {},
+    "reads": 3,
+    "expected": {
+      "calls": [
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://a.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        },
+        {
+          "kind": "serves",
+          "url": "https://b.example",
+          "path": [
+            "Nexus",
+            "A"
+          ]
+        }
+      ],
+      "readCalls": [],
+      "results": [
+        {
+          "error": 503
+        },
+        {
+          "error": 503
+        },
+        {
+          "error": 503
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-01",
+  "browser": "Chrome, disposable QA profile, controlled through CUA",
+  "result": "PASS",
+  "checks": ["HTTP read and explicit authorization", "streaming response cap", "deadline abort", "cancellation abort", "redirect refusal", "body-stream cancellation and deadline", "complete authenticated Volume HTTP transfer", "explicit HTTP submission", "explicit DNS capability refusal", "shared browser discovery task", "browser entropy and sponsor share search"],
+  "serverEvidence": {"redirectTargets":0,"delayed":2,"bodyDelayed":2,"abortObserved":4,"authorized":1,"posts":1},
+  "scope": "Real Rust WASM SDK in a Chrome window against local synthetic HTTP fixtures; not cross-engine, worker or live-network validation"
+}

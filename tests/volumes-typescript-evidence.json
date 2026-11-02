@@ -1,0 +1,13 @@
+{
+  "sdk_sha": "3a1be07318f12b85f147e0a5ea55ae68a224e780",
+  "node": "v26.0.0",
+  "cases": 180,
+  "source_sha256": {
+    "packages/volumes/src/index.ts": "a174033348fe1659199852b3e5f593eeb835feb845b896d30efb57cc2678e1b2",
+    "packages/core/src/cid.ts": "4a6883b6f37813ff8f5ed7491545e0af99b5175cf7af2e54a34e8a129e9c91bb",
+    "packages/core/src/dag-cbor.ts": "7625315d186d3bbd86000392bb0d8d2773a5c3f7d8cdab0cf0a2139964a17f26",
+    "package-lock.json": "c2a4a642d0b39f598400b930c8bd7d7e99c67cd333dede343f4e14175e0596ae"
+  },
+  "fixture_sha256": "18f2d72966d19989ee04f18c31b202a3b64195779fab3dc4c50cf9f27bdc8f7c",
+  "scope": "Actual TypeScript verifyVolume/archive/CBOR/sparse proof outputs. HTTP transport separately tested via loopback. Rust explicit configurable CBOR nesting cap is additional resource policy."
+}
